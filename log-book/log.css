@@ -12,7 +12,7 @@ body {
     padding: 20px; /* Adding padding around the content */
 }
 
-h1, h2, p {
+h1, h2, h3, p {
     padding-left: 70;
     margin-bottom: 20px;
 }
@@ -33,9 +33,31 @@ h2 {
     padding-top: 20px;
 }
 
+h3 {
+    color: rgb(146, 146, 146);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+/* Remove margin-bottom if h3 follows h2 */
+h2 + h3 {
+    margin-top: -20px; /* Removing the space between h2 and h3 */
+    padding-top: 0; /* Remove any additional padding */
+}
+
 p {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.125em;
     overflow-wrap: break-word; /* Ensures that text will wrap to the next line if it is too long */
+}
+
+/* unvisited links */
+a:link {
+    color: #5e03fc;
+}
+
+/* visited links */
+a:visited {
+    color: #5e03fc;
 }
