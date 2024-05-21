@@ -20,7 +20,7 @@
         </p>
     </div>
 
-    <div id="content"></div>
+    <div class="container" id="content"></div>
 
     <div class="container">
         <p>
@@ -52,7 +52,7 @@
                 })
                 .then(markdown => {
                     // Convert markdown to HTML
-                    const htmlContent = marked(markdown);
+                    const htmlContent = marked.parse(markdown);
 
                     // Inject HTML content into the page
                     document.getElementById('content').innerHTML = htmlContent;
@@ -63,6 +63,6 @@
                 });
         });
     </script>
-    
+
 </body>
 </html>
