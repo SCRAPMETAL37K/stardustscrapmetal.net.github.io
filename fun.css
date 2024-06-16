@@ -28,7 +28,7 @@ h1 {
     align-items: center;
 }
 
-span {
+h1 span {
     margin-top: -17px; /* Move the text 17 pixels higher for perfectly centered-ness */
     margin-left: 10px;
 }
