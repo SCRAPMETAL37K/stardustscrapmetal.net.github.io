@@ -12,7 +12,7 @@ body {
     padding: 20px; /* Adding padding around the content */
 }
 
-h1, h2, p {
+h1, h2, h3, p {
     padding-left: 70;
     margin-bottom: 20px;
 }
@@ -23,6 +23,14 @@ h1 {
     font-weight: bold;
     font-size: 2.5em;
     text-decoration-line: underline;
+
+    display: flex;
+    align-items: center;
+}
+
+span {
+    margin-top: -17px; /* Move the text 17 pixels higher for perfectly centered-ness */
+    margin-left: 10px;
 }
 
 h2 {
@@ -59,5 +67,5 @@ a:link {
 
 /* visited links */
 a:visited {
-    color: #5e03fc;
+    color: #F36598;
 }
