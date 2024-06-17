@@ -33,6 +33,11 @@ h1 span {
     margin-left: 10px;
 }
 
+h1 a {
+    margin-left: 5px;
+    float: right;
+}
+
 h2 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
