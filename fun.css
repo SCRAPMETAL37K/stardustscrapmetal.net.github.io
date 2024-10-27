@@ -12,7 +12,7 @@ body {
     margin: 0 auto; /* Centering the content */
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 50px;
     margin-bottom: 0;
 }
 
@@ -25,8 +25,24 @@ body {
     margin: 0 auto; /* Centering the content */
 }
 
+@font-face {
+    font-family: 'MyTahoma';
+    src: url('src/tahoma.ttf') format('truetype');
+    font-weight: normal;
+    font-style:normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MyTahoma';
+    src: url('src/tahomabd.ttf') format('truetype');
+    font-weight: bold;
+    font-style:normal;
+    font-display: swap;
+}
+
 h1, h2, h3, p {
-    font-family: Tahoma, Helvetica, Arial, sans-serif;
+    font-family: Tahoma, 'MyTahoma', Arial, sans-serif;
     padding-left: 70;
 }
 
