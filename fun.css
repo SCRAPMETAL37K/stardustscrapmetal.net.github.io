@@ -23,6 +23,7 @@ body {
 .container {
     max-width: 800px; /* Limiting the width of the content */
     margin: 0 auto; /* Centering the content */
+    margin-bottom: 70px;
 }
 
 @font-face {
