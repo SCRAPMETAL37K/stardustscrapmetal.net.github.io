@@ -26,6 +26,24 @@ body {
     margin-bottom: 70px;
 }
 
+.index {
+    background-color: #0c0c0c;
+    margin: 0 auto;
+    padding: 0;
+    line-height: 1;
+}
+
+.ascii {
+    max-width: 800px; /* Limiting the width of the content */
+    margin: 0 auto; /* Centering the content */
+    margin-bottom: 70px;
+    margin-top: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @font-face {
     font-family: 'MyTahoma';
     src: url('src/tahoma.ttf') format('truetype');
@@ -42,8 +60,24 @@ body {
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('src/Inconsolata-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style:normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('src/Inconsolata-Black.ttf') format('truetype');
+    font-weight: bold;
+    font-style:normal;
+    font-display: swap;
+}
+
 h1, h2, h3, p {
-    font-family: Tahoma, 'MyTahoma', Arial, sans-serif;
+    font-family: 'Inconsolata', Tahoma, 'MyTahoma', Arial, sans-serif;
     padding-left: 70;
 }
 
@@ -90,6 +124,17 @@ p {
     color: white;
     font-size: 1.125em;
     overflow-wrap: break-word; /* Ensures that text will wrap to the next line if it is too long */
+}
+
+pre {
+    color: white;
+    font-size: 1.125em;
+    font-family:'Inconsolata', monospace
+}
+
+.ascii pre {
+    white-space: pre; /* Preserves all spacing and line breaks exactly as they are */
+    margin: 0; /* Removes any default margins */
 }
 
 /* unvisited links */
