@@ -94,7 +94,7 @@ h1 {
 h2 {
     color: white;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 2.5em; /* PREVIOUSLY 2em */
 }
 
 h3 {
@@ -104,7 +104,7 @@ h3 {
 
 /* Remove margin-bottom if h2 follows h1 */
 h1 + h2 {
-    margin-top: -10px; /* Removing the space between h2 and h3 */
+    margin-top: -10px; /* Removing the space between h1 and h2 */
     padding-top: 0; /* Remove any additional padding */
 }
 
@@ -122,12 +122,12 @@ h3 + p {
 
 p {
     color: white;
-    font-size: 1.125em;
+    font-size: 1.25em; /* PREVIOUSLY 1.125em */
     overflow-wrap: break-word; /* Ensures that text will wrap to the next line if it is too long */
 }
 
 .nav {
-    font-size: 1.125em;
+    font-size: 1.25em; /* PREVIOUSLY 1.125em */
     display: flex;
     justify-content: space-between;
     text-align: center;
