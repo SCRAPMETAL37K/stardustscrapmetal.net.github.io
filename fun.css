@@ -164,7 +164,9 @@ pre {
 }
 
 .link-blue:hover {
-    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+    background-color: #008BFF;
 }
 
 .link-red {
@@ -176,7 +178,9 @@ pre {
 }
 
 .link-red:hover {
-    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+    background-color: #FF3738;
 }
 
 .link-green {
@@ -188,7 +192,9 @@ pre {
 }
 
 .link-green:hover {
-    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+    background-color: #1ABE14;
 }
 
 .link-yellow {
@@ -200,7 +206,9 @@ pre {
 }
 
 .link-yellow:hover {
-    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+    background-color: #FF9C00;
 }
 
 .link-purple {
@@ -212,7 +220,9 @@ pre {
 }
 
 .link-purple:hover {
-    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+    background-color: #d400ff;
 }
 
 .link-secret {
@@ -224,6 +234,17 @@ pre {
 }
 
 .link-secret:hover {
-    color: gray;
+    color: white;
     text-decoration: underline;
+    background-color: gray;
+}
+
+::selection {
+    background: #d400ff;
+    color: black;
+}
+
+::-moz-selection {
+    background: #d400ff;
+    color: black;
 }
