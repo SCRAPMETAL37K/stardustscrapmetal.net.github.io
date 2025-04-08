@@ -76,28 +76,34 @@ body {
     font-display: swap;
 }
 
-h1, h2, h3, p {
+h1 {
     font-family: 'Inconsolata', Tahoma, 'MyTahoma', Arial, sans-serif;
     padding-left: 70;
-}
 
-h1 {
     color: white;
     font-weight: bold;
     font-size: 2.5em;
-    text-decoration-line: underline;
+    /* text-decoration-line: underline; */
     display: flex;
     align-items: center;
     margin: 0;
 }
 
 h2 {
+    font-family: Tahoma, 'MyTahoma', Arial, sans-serif;
+    padding-left: 70;
+    letter-spacing: 1.5px;
+
     color: white;
     font-weight: bold;
     font-size: 2.5em; /* PREVIOUSLY 2em */
 }
 
 h3 {
+    font-family: Tahoma, 'MyTahoma', Arial, sans-serif;
+    padding-left: 70;
+    letter-spacing: 1.5px;
+
     color: rgb(146, 146, 146);
     font-size: 1.5em;
 }
@@ -121,6 +127,9 @@ h3 + p {
 }
 
 p {
+    font-family: 'Inconsolata', Tahoma, 'MyTahoma', Arial, sans-serif;
+    padding-left: 70;
+
     color: white;
     font-size: 1.25em; /* PREVIOUSLY 1.125em */
     overflow-wrap: break-word; /* Ensures that text will wrap to the next line if it is too long */
@@ -146,17 +155,75 @@ pre {
     margin: 0; /* Removes any default margins */
 }
 
-/* unvisited links */
-a:link {
-    color: #5e03fc;
+.link-blue {
+    color: #008BFF;
 }
 
-/* visited links */
-a:visited {
-    color: #5e03fc;
+.link-blue:visited {
+    color: #008BFF;
 }
 
-/* hovered-over links */
-a:hover {
-    color: #F36598;
+.link-blue:hover {
+    text-decoration: none;
+}
+
+.link-red {
+    color: #FF3738;
+}
+
+.link-red:visited {
+    color: #FF3738;
+}
+
+.link-red:hover {
+    text-decoration: none;
+}
+
+.link-green {
+    color: #1ABE14;
+}
+
+.link-green:visited {
+    color: #1ABE14;
+}
+
+.link-green:hover {
+    text-decoration: none;
+}
+
+.link-yellow {
+    color: #FF9C00;
+}
+
+.link-yellow:visited {
+    color: #FF9C00;
+}
+
+.link-yellow:hover {
+    text-decoration: none;
+}
+
+.link-purple {
+    color: #d400ff;
+}
+
+.link-purple:visited {
+    color: #d400ff;
+}
+
+.link-purple:hover {
+    text-decoration: none;
+}
+
+.link-secret {
+    color: #0c0c0c;
+}
+
+.link-secret:visited {
+    color: #0c0c0c;
+}
+
+.link-secret:hover {
+    color: gray;
+    text-decoration: underline;
 }
